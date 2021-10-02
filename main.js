@@ -120,7 +120,7 @@
                     'display': 'block'
                 });
 
-                alert("send to api here")
+               
                 fetch("http://findahub-001-site1.ftempurl.com/api/addhub", {
                         method: "post",
                         headers: {
