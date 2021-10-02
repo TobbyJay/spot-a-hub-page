@@ -119,8 +119,14 @@
                 }, 500).css({
                     'display': 'block'
                 });
+                $('#click').animate({
+                    opacity: 1,
+                    marginTop: '1em'
+                }, 500).css({
+                    'display': 'block'
+                });
 
-               
+
                 fetch("http://findahub-001-site1.ftempurl.com/api/addhub", {
                         method: "post",
                         headers: {
